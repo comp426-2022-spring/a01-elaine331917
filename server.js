@@ -19,7 +19,6 @@ fs.readFile('./www/index.html', 'utf8', (err, data) => {
     // Do not be nice about exiting.
     if (err){
         console.error(err)
-        process.exit(1)
         return
     }
     // Define a const `server` as an arrow function using http.createServer. 
